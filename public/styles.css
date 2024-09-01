@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color : black;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color : black;
+}
+
+.hero-content .cta {
+    background-color: #48df2a;
+    padding: 0.75rem 2rem;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.skills-container, .projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill-item, .project-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.skill-item i, .project-item img {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+footer.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
